@@ -18,8 +18,10 @@
   * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
   ******************************************************************************
   */
-
 /* Define to prevent recursive inclusion -------------------------------------*/
+#define _NVIC
+
+
 #ifndef __STM32F10x_CONF_H
 #define __STM32F10x_CONF_H
 
@@ -48,7 +50,7 @@
 #include "stm32f10x_usart.h"
 #include "stm32f10x_wwdg.h"
 #include "misc.h" /* High level functions for NVIC and SysTick (add-on to CMSIS functions) */
-#define _EXTI
+
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Uncomment the line below to expanse the "assert_param" macro in the      

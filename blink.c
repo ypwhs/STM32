@@ -6,7 +6,7 @@ void delay(u16 time)
    u16 i=0;  
    while(time--)
    {
-      i=12000;  //自己定义
+      i=12000;  //鑷繁瀹氫箟
       while(i--) ;    
    }
 }
